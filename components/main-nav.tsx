@@ -45,6 +45,7 @@ export function MainNav({ items, children }: MainNavProps) {
           ))}
         </nav>
       ) : null}
+      <ModeToggle />
     </div>
   )
 }
